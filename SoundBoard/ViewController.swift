@@ -75,6 +75,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 tableView.reloadData() //reload the screen
             } catch {}
             
+            
         }
     }
     
