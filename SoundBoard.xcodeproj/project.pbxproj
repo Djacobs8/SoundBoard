@@ -13,6 +13,7 @@
 		B6B27C381E948D4F000D9BAE /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C361E948D4F000D9BAE /* SoundBoard.xcdatamodeld */; };
 		B6B27C3A1E948D4F000D9BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C391E948D4F000D9BAE /* Assets.xcassets */; };
 		B6B27C3D1E948D4F000D9BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C3B1E948D4F000D9BAE /* LaunchScreen.storyboard */; };
+		B6B27C471E9490B0000D9BAE /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C461E9490B0000D9BAE /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B6B27C391E948D4F000D9BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6B27C3C1E948D4F000D9BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6B27C3E1E948D4F000D9BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B27C461E9490B0000D9BAE /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundViewController.swift; path = ../SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B6B27C2F1E948D4F000D9BAE /* AppDelegate.swift */,
 				B6B27C311E948D4F000D9BAE /* ViewController.swift */,
+				B6B27C461E9490B0000D9BAE /* SoundViewController.swift */,
 				B6B27C331E948D4F000D9BAE /* Main.storyboard */,
 				B6B27C391E948D4F000D9BAE /* Assets.xcassets */,
 				B6B27C3B1E948D4F000D9BAE /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B27C471E9490B0000D9BAE /* SoundViewController.swift in Sources */,
 				B6B27C381E948D4F000D9BAE /* SoundBoard.xcdatamodeld in Sources */,
 				B6B27C321E948D4F000D9BAE /* ViewController.swift in Sources */,
 				B6B27C301E948D4F000D9BAE /* AppDelegate.swift in Sources */,
